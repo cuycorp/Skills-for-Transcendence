@@ -16,4 +16,6 @@ https://www.youtube.com/watch?v=SqcY0GlETPk&t=163s
 javascript data structure
 
 pending:
+React: Can build a form, fetch data, show loading/error/empty states.
+Typescritpt: Can model DTOs and API payload types without any.
 nestJs https://docs.nestjs.com/first-steps

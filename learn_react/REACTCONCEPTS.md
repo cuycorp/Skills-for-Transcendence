@@ -27,4 +27,6 @@ define the scope of each one
 + files inside this folder are served as is, e.g. image or logo.
 
 
-# Import chain: how files call each other
+# Import chain: how files call each other: just put export and import
+
+# Passing props to components https://react.dev/learn/passing-props-to-a-component
