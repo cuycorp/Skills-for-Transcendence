@@ -16,4 +16,4 @@ https://www.youtube.com/watch?v=SqcY0GlETPk&t=163s
 javascript data structure
 
 pending:
-nestJs
+nestJs https://docs.nestjs.com/first-steps
