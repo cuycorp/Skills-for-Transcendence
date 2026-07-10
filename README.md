@@ -4,6 +4,10 @@ https://www.youtube.com/watch?v=d56mG7DezGs&t=1139s
 # react: javascript library for creating user interfaces
 https://www.youtube.com/watch?v=SqcY0GlETPk&t=163s
 
+# HTML: 
+https://www.youtube.com/watch?v=N8YMl4Ezp4g&list=PLC3y8-rFHvwhuX4qGvFx-wPy_MEi6Jdp7 
+ - common used blocks
+ - after: look for semantic html
 ## folder distribution
 + node modules: where 3rd party libraries are installed
 + public: where public assets of website are store, e.g images
