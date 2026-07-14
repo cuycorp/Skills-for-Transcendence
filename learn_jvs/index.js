@@ -1,5 +1,5 @@
 console.log("Hye: ");
-//**promise**//
+//**promise** helps the application for a process to end before continuing//
 const event = new Promise((resolve, reject) => {
     var name = "Maria";
     if(name == "Pedro"){
