@@ -2,27 +2,31 @@ import './App.css'
 import {useState} from "react";
 
 function App() {
-  const name = "Pedro";
-  const age = 12;
-  const [showMessage, setShowMessage] = useState(false); {/* Global variable like*/}
 
-  function toggleMessage(){
-    if(showMessage){
-      setShowMessage(false);
-    }
-    else{
-      setShowMessage(true);
-    }
-    console.log(showMessage);
+  const [name, setName] = useState(""); 
+
+  function handleChange(event) 
+  {
+    const value = event.target.value;
+    setName(value);
   }
+  //event gives acces to information of the input
   return (
     <div>
-      <Greetingtwo name={"Timoteo"}/>
-      <Greetingthree name={"Pia"} age={12} />
-      <button onClick={toggleMessage}>Click Me</button>
-      {showMessage && <Message/>}
+        <input type="text" placeholder='Name...' onChange={handleChange}></input>
+        {name}
     </div>
   );
 }
 
 export default App;
+
+
+//onChange() function allows to call a function everytime there is a change in the value of the input
+
+{/*
+  Topics: 
+  1. 
+
+  ? why are functions defined inside another function
+*/}
