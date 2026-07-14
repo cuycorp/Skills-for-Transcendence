@@ -30,3 +30,9 @@ define the scope of each one
 # Import chain: how files call each other: just put export and import
 
 # Passing props to components https://react.dev/learn/passing-props-to-a-component
+
+
+# Requirements
+1. nodejs 
+2. npm?
+3. vite 
