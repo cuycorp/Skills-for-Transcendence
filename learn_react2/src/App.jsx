@@ -1,11 +1,15 @@
 import './App.css'
 import {useState} from "react";
 
+
+{/**Component */}
 function Message()
 {
   return <h1>Message!!</h1>
 }
 
+
+{/** Passing an argument = prop*/}
 function Greetingtwo(props)
 {
   return <h1>Hello I am {props.name}!!</h1>
@@ -17,9 +21,13 @@ function Greetingthree({name, age})
 }
 
 
+
+
 function App() {
   const name = "Pedro";
   const age = 12;
+  {/**Conditional rendering + Hook */}
+  {/**State is created to direcly affect UI rendering with useState hook */}
   const [showMessage, setShowMessage] = useState(false); {/* Global variable like*/}
 
   function toggleMessage(){
