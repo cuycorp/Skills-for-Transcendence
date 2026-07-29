@@ -32,5 +32,20 @@ nestJs https://docs.nestjs.com/first-steps
 4. generar controlador sin spec(archivo de testing): nest generate controller tasks --no-spec
 5. generar service: nest generate service tasks --no-spec
 
+- npm i @nestjs/mongoose mongoose
+decorador para indicar que tipo de dato se espera
+- npm i --save class-validator class-transformer
+
+
 ## Use of ORM/ODM
 modules that connect to a database, and permit you to do operations with code (e.g instead of select * from, they give you a function findall())
+
+
+----------
+24.54
+
+HECHO: 
+- dto
+- schemas -> diferencia?
+TODO: 
+explicar task.service
