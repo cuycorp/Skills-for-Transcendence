@@ -23,3 +23,14 @@ pending:
 React: Can build a form, fetch data, show loading/error/empty states.
 Typescritpt: Can model DTOs and API payload types without any.
 nestJs https://docs.nestjs.com/first-steps
+
+
+# nestjs
+1. instalar paquetes: npm i -g @nestjs/cli
+2. nest new taskapi: crear el proyecto backend
+3. generar module: nest generate module moduleName
+4. generar controlador sin spec(archivo de testing): nest generate controller tasks --no-spec
+5. generar service: nest generate service tasks --no-spec
+
+## Use of ORM/ODM
+modules that connect to a database, and permit you to do operations with code (e.g instead of select * from, they give you a function findall())
