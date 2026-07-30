@@ -13,7 +13,7 @@ export class TasksService {
     //definiendo propiedad TaskModel
     constructor(@InjectModel(Task.name) private taskModel: Model<Task>) {}
 
-    finAll(){
+    findAll(){
         this.taskModel.find();
     }
 
